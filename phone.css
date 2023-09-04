@@ -1,0 +1,47 @@
+.navbar{
+    flex-direction: column;
+    align-items:flex-start;
+    padding:20px;
+
+}
+
+.nav-menu{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.right-input{
+    width:100%;
+    margin-top: 20px;
+}
+
+#input{
+    width:200px;
+}
+
+.grid-container{
+    color:black;
+}
+
+.right-grid-container{
+    color:black;
+}
+
+.novel-section{
+    flex-direction:column;
+    flex-wrap:nowrap;
+    height:auto;
+    justify-content:center;
+    align-items:center;
+    /* overflow: hidden; */
+}
+
+.mangaSection{
+    flex-direction:column;
+    flex-wrap:nowrap;
+    height:auto;
+    justify-content:center;
+    align-items:center;
+    /* overflow: hidden; */
+}

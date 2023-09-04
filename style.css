@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Ubuntu:ital,wght@1,300&family=Varela+Round&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+}
+
+.left-icon {
+   color:white;
+    font-size:2.0rem;
+    margin-top:5px;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding:12px 12px;
+    font-size:1.5rem;
+}
+
+.nav-menu a:hover{
+   background-color:blueviolet;
+   color:beige; 
+   border-radius: 8px;
+}
+
+.right-input {
+   text-align:center;
+   padding:9px 9px;
+  
+}
+
+.right-input i{
+    color:white;
+    font-size:1.4rem;
+    position:relative;
+    top:2px;
+    left:2px;
+    cursor:pointer;
+}
+
+#input{
+    width:400px;
+    font-size:0.9rem;
+    border-radius:8px;
+    padding:12px 12px;
+    text-align:center;
+    overflow: hidden;
+    outline:none;
+}
+
+#input:focus{
+    border:2px solid blueviolet;
+}
+
+
+.container{
+   background-color: bisque;
+    height:500px;
+    background: url(bookre.jpg) no-repeat center center/cover;
+   
+
+    
+}
+
+
+.heading p{
+    text-align:center;
+    position:relative;
+    top:20px;
+    font-family: cursive;
+    font-size:1.2rem;
+    color:bisque
+}
+
+.signup{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#btn{
+    padding:12px 12px;
+    border-radius:8px;
+    width:100px;
+    margin:30px;
+    border:none;
+    background-color: #2424e0f0;
+    color:beige;
+}
+
+#btn:hover{
+    cursor:pointer;
+    background-color: rgb(181, 227, 87);
+    color:black;
+}
+
+.grid-container{
+   display:flex;
+   flex-direction:column;
+   justify-content: center;
+    grid-gap: 10px;
+    color:beige;
+    /* border:2px solid red; */
+    width:300px;
+    align-items: center;
+    cursor:pointer;
+    
+}
+
+.hthree{
+    color:blueviolet;
+}
+
+.right-grid-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-gap:10px;
+   align-items: center;
+    color:beige;
+    width:300px;
+    cursor:pointer;
+    
+}
+
+.containerSmall{
+    display:flex;
+    justify-content: space-between;
+}
+
+.trending-novel-heading{
+    color:blue;
+    text-align: center;
+    /* margin-top:10px; */
+    background-color: black;
+}
+
+
+
+.novel-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* margin-top:5px; */
+    height:370px;
+    background-color: black;
+    /* overflow: hidden; */
+
+}
+
+.trending-novels img{
+    height: 350px;
+    width:250px;
+}
+
+.best-novel-heading{
+    color:blue;
+    text-align:center;
+    background-color: black;
+}
+
+.novelName{
+     text-align:center;
+     font-weight: bold;
+     font-style: italic;
+     color:beige;
+}
+
+
+.mangaSection{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* margin-top:5px; */
+    height:400px;
+    background-color: black;
+    /* overflow:hidden; */
+
+}
+
+
+.copyright{
+    background-color: black;
+    color:white;
+    text-align: center;
+    height:45px;
+   
+   
+}
+
+
